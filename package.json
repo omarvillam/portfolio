@@ -4,10 +4,37 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@nx/devkit": "19.8.0",
+    "@nx/eslint": "19.8.0",
+    "@nx/eslint-plugin": "19.8.0",
     "@nx/js": "19.8.0",
+    "@nx/playwright": "19.8.0",
+    "@nx/remix": "^19.8.0",
+    "@nx/web": "19.8.0",
     "@nx/workspace": "19.8.0",
-    "nx": "19.8.0"
+    "@playwright/test": "^1.36.0",
+    "@remix-run/dev": "^2.8.1",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^1.6.2",
+    "nx": "19.8.0",
+    "prettier": "^2.6.2",
+    "typescript": "~5.5.2",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.8.1",
+    "@remix-run/react": "^2.8.1",
+    "@remix-run/serve": "^2.8.1",
+    "isbot": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
