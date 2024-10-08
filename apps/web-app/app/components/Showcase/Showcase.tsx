@@ -5,8 +5,8 @@ import {showcases} from "./showcases";
 function Showcase() {
   return (
     <section
-      className={"p-2"}>
-      <div className="columns-2 sm:columns-3 md:columns-3 gap-x-2 space-y-2">
+      className={"p-2"} id={"showcase"}>
+      <div className="columns-1 sm:columns-2 md:columns-2 lg:columns-3 gap-x-2 space-y-2">
         {showcases.map((showcase, i) => (
           <Card key={i} {...showcase} />
         ))}

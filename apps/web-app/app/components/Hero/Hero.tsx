@@ -3,7 +3,7 @@ import {experience} from "./experience";
 
 function Hero() {
   return (
-    <section className={"flex justify-between items-start px-10 lg:px-20 pt-28 bg-primary flex-wrap sm:px-0 gap-y-10"}>
+    <section className={"flex justify-between items-start px-10 lg:px-20 pt-28 bg-primary flex-wrap sm:px-0 gap-y-10"} id={"home"}>
       <div className={"flex justify-center flex-col sm:basis-1/2 basis-full"}>
         <h1 className={"sm:text-5xl text-3xl font-bold mt-0 whitespace-nowrap"}>Software engineer</h1>
         <p className={"mt-6 text-tertiary leading-7"}>
@@ -11,6 +11,13 @@ function Hero() {
         </p>
       </div>
       <div className={"flex justify-center flex-col w-full sm:w-[40%]"}>
+        <a
+          className="text-sm rounded-full bg-primary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
+          href="https://drive.google.com/file/d/17U5yBqiXGXyfLjQlFvAsPPWAl-idadvo/view"
+          target="_blank"
+        >
+          Resume
+        </a>
         <div className={"border border-secondary rounded-lg p-6"}>
           <div className={"flex gap-2 justify-start items-center"}>
             <h3 className={"text-white"}>Experience</h3>
@@ -27,9 +34,11 @@ function Hero() {
                     />
                   </a>
                   {/* Border circle ::before */}
-                  <span className="absolute inset-0 flex items-center justify-center before:content-[''] before:absolute before:w-9 before:h-9 before:border before:border before:rounded-full before:z-10"></span>
+                  <span
+                    className="absolute inset-0 flex items-center justify-center before:content-[''] before:absolute before:w-9 before:h-9 before:border before:border before:rounded-full before:z-10"></span>
                   {/* Border tertiary ::after */}
-                  <span className="absolute inset-0 flex items-center justify-center after:content-[''] after:absolute after:w-10 after:h-10 after:border after:border-tertiary after:rounded-full after:z-0"></span>
+                  <span
+                    className="absolute inset-0 flex items-center justify-center after:content-[''] after:absolute after:w-10 after:h-10 after:border after:border-tertiary after:rounded-full after:z-0"></span>
 
                   {/* Timeline line */}
                   {i !== experience.length - 1 && (

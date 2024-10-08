@@ -7,11 +7,17 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react';
-import tailwind from "./tailwind.css";
+
+import TailwindStyles from "./tailwind.css?url";
 
 export const meta: MetaFunction = () => [
   {
     title: 'Omar Villalobos - Web Developer',
+    "og:title": 'Omar Villalobos - Web Developer',
+    description: 'Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypesScript, Golang, NodeJS and modern web technologies.',
+    "og:description": "Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypesScript, Golang, NodeJS and modern web technologies.",
+    "twitter:card": "summary_large_image",
+    "og:url": `https://omarvillam.com/memoji.png`,
   },
 ];
 
@@ -21,7 +27,7 @@ export const links = () => [
   { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" },
   { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" },
   { rel: "manifest", href: "/site.webmanifest" },
-  { rel: "stylesheet", href: tailwind },
+  { rel: "stylesheet", href: TailwindStyles },
 ];
 
 export default function App() {
@@ -38,7 +44,6 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
       </body>
     </html>
   );
