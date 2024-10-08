@@ -5,5 +5,5 @@ installGlobals();
 
 export default defineConfig({
   server: { port: 3000, fs: { allow: ['../..'] } },
-  plugins: [remix()],
+  plugins: [remix({ ssr: false })],
 });
