@@ -18,7 +18,7 @@ export const links = () => [
   { rel: "stylesheet", href: TailwindStyles },
 ];
 
-export default function App() {
+export function Layout() {
   return (
     <html lang="en">
     <head>
@@ -28,16 +28,15 @@ export default function App() {
 
       <meta property="og:title" content="Omar Villalobos - Software Developer"/>
       <meta property="og:description"
-            content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
+            content="I'm Omar Villalobos, a full stack software developer with experience building applications with Node.js/TypeScript, Remix/Next.js, and Golang."/>
       <meta property="og:image" content="https://omarvillam.com/memoji.png"/>
       <meta property="og:url" content="https://omarvillam.com"/>
 
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:title" content="Omar Villalobos - Software Developer"/>
       <meta name="twitter:description"
-            content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
+            content="I'm Omar Villalobos, a full stack software developer with experience building applications with Node.js/TypeScript, Remix/Next.js, and Golang."/>
       <meta name="twitter:image" content="https://omarvillam.com/memoji.png"/>
-
       <Meta/>
       <Links/>
     </head>
@@ -48,4 +47,8 @@ export default function App() {
     </body>
     </html>
   );
+}
+
+export default function App() {
+  return <Outlet />;
 }
