@@ -29,14 +29,14 @@ export default function App() {
       <meta property="og:title" content="Omar Villalobos - Software Developer"/>
       <meta property="og:description"
             content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
-      <meta property="og:image" content="/memoji.png"/>
+      <meta property="og:image" content="https://omarvillam.com/memoji.png"/>
       <meta property="og:url" content="https://omarvillam.com"/>
 
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:title" content="Omar Villalobos - Software Developer"/>
       <meta name="twitter:description"
             content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
-      <meta name="twitter:image" content="/memoji.png"/>
+      <meta name="twitter:image" content="https://omarvillam.com/memoji.png"/>
 
       <Meta/>
       <Links/>
