@@ -10,34 +10,34 @@ interface ShowcaseInterface {
 
 const showcases: ShowcaseInterface[] = [
     {
-    title: "Google Maps",
+    title: "Interactive Address Lookups",
     source: "/showcase/map.mp4",
     position: "bottom-left",
-      color: 'black',
+      color: 'white',
   },
   {
-    title: "Live Editor",
+    title: "Printable Product Editor",
     source: "/showcase/poster.mp4",
     position: "bottom-right",
-    color: 'black',
+    color: 'white',
   },
   {
-    title: "Paywall",
+    title: "Stripe Payment Gateway",
     source: "/showcase/paywall.mp4",
     position: "bottom-left",
-    color: 'black',
+    color: 'white',
   },
   {
-    title: "Live feedback",
+    title: "Smart Fridges IoT",
     source: "/showcase/automatron.png",
     position: "bottom-left",
-    color: 'black',
+    color: 'white',
   },
   {
-    title: "Retirement plan",
+    title: "Management of Retirement Plan",
     source: "/showcase/lykas.png",
     position: "bottom-left",
-    color: 'black',
+    color: 'white',
   }
 ]
 

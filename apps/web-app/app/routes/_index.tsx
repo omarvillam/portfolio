@@ -13,7 +13,7 @@ export default function Index() {
         {/*<Navbar/>*/}
         <Hero/>
         <TechStack/>
-        <h1 className={"sm:text-3xl text-xl mt-20 px-10 pb-10 lg:px-20 font-bold whitespace-nowrap"}>Showcase</h1>
+        <h1 className={"sm:text-3xl text-xl mt-20 px-10 pb-10 md:px-20 font-bold whitespace-nowrap"}>Showcase</h1>
       </Container>
       <Showcase/>
       <Footer />

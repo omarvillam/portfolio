@@ -3,21 +3,19 @@ import {experience} from "./experience";
 
 function Hero() {
   return (
-    <section className={"flex justify-between items-start px-10 lg:px-20 pt-28 bg-primary flex-wrap sm:px-0 gap-y-10"} id={"home"}>
-      <div className={"flex justify-center flex-col sm:basis-1/2 basis-full"}>
-        <h1 className={"sm:text-5xl text-3xl font-bold mt-0 whitespace-nowrap"}>Software engineer</h1>
-        <p className={"mt-6 text-tertiary leading-7"}>
-          Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypesScript, Golang, NodeJS and modern web technologies. I’m passionate about bridging technical and business needs to create impactful solutions. Right now, I’m excited about new challenges. I thrive on solving complex problems and delivering value through innovative code.
+    <section className={"flex justify-between items-start px-10 md:px-20 lg:pt-16 pt-10 bg-primary flex-wrap sm:px-0 gap-y-10"} id={"home"}>
+      <div className={"flex justify-center flex-col lg:basis-1/2 basis-full"}>
+        <h1 className={"sm:text-5xl text-3xl font-bold mt-0 whitespace-nowrap"}>Software Developer</h1>
+        <p className={"mt-6 text-quartery leading-7"}>
+          I'm Omar Villalobos, a full stack software developer with experience building applications with Node.js/TypeScript, Remix/Next.js, and Golang.
+          <br/><br/>
+          As a bachelor in Global Business Management with a minor in IT Management & Data Analytics, I can bridge technical and business requirements
+          to create impactful solutions.
+          <br /><br/>
+          I'm always excited for new challenges, so if you have a project in mind, feel free to reach out to me.
         </p>
       </div>
-      <div className={"flex justify-center flex-col w-full sm:w-[40%]"}>
-        <a
-          className="text-sm rounded-full bg-primary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
-          href="https://drive.google.com/file/d/17U5yBqiXGXyfLjQlFvAsPPWAl-idadvo/view"
-          target="_blank"
-        >
-          Resume
-        </a>
+      <div className={"flex justify-center flex-col w-full lg:w-[40%]"}>
         <div className={"border border-secondary rounded-lg p-6"}>
           <div className={"flex gap-2 justify-start items-center"}>
             <h3 className={"text-white"}>Experience</h3>
@@ -57,6 +55,22 @@ function Hero() {
             ))}
           </div>
         </div>
+        <div className={"flex justify-between w-full flex-row gap-4 mt-4"}>
+          <a
+            className="text-sm rounded-lg w-full text-center bg-secondary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
+            href="https://drive.google.com/file/d/17U5yBqiXGXyfLjQlFvAsPPWAl-idadvo/view"
+            target="_blank"
+          >
+            Resume
+          </a>
+          <a
+            className="text-sm rounded-lg w-full text-center bg-secondary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
+            href="mailto:omarvillaleads@gmail.com"
+          >
+            Contact
+          </a>
+        </div>
+
       </div>
     </section>
   )

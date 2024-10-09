@@ -9,10 +9,6 @@ const stack: TechStackInterface[] = [
     name: "JavaScript",
   },
   {
-    source: '/icons/tech/nodejs.png',
-    name: "NodeJS",
-  },
-  {
     source: '/icons/tech/reactjs.png',
     name: "ReactJS",
   },

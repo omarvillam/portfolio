@@ -1,7 +1,6 @@
 import type { MetaFunction } from '@remix-run/node';
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
@@ -9,17 +8,6 @@ import {
 } from '@remix-run/react';
 
 import TailwindStyles from "./tailwind.css?url";
-
-export const meta: MetaFunction = () => [
-  {
-    title: 'Omar Villalobos - Web Developer',
-    "og:title": 'Omar Villalobos - Web Developer',
-    description: 'Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypesScript, Golang, NodeJS and modern web technologies.',
-    "og:description": "Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypesScript, Golang, NodeJS and modern web technologies.",
-    "twitter:card": "summary_large_image",
-    "og:url": `https://omarvillam.com/memoji.png`,
-  },
-];
 
 export const links = () => [
   { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" },
@@ -33,18 +21,31 @@ export const links = () => [
 export default function App() {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+      <meta charSet="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title>Omar Villalobos - Software Developer</title>
 
-        <Meta />
-        <Links />
-      </head>
-      <body className="font-sans bg-black text-white">
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-      </body>
+      <meta property="og:title" content="Omar Villalobos - Software Developer"/>
+      <meta property="og:description"
+            content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
+      <meta property="og:image" content="/memoji.png"/>
+      <meta property="og:url" content="https://omarvillam.com"/>
+
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:title" content="Omar Villalobos - Software Developer"/>
+      <meta name="twitter:description"
+            content="Hi, I’m Omar, a Full-Stack Software Engineer with experience building scalable applications using React, Remix, TypeScript, Golang, NodeJS and modern web technologies."/>
+      <meta name="twitter:image" content="/memoji.png"/>
+
+      <Meta/>
+      <Links/>
+    </head>
+    <body className="font-sans bg-black text-white">
+    <Outlet/>
+    <ScrollRestoration/>
+    <Scripts/>
+    </body>
     </html>
   );
 }
