@@ -58,7 +58,7 @@ function Hero() {
         <div className={"flex justify-between w-full flex-row gap-4 mt-4"}>
           <a
             className="text-sm rounded-lg w-full text-center bg-secondary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
-            href="https://drive.google.com/file/d/17U5yBqiXGXyfLjQlFvAsPPWAl-idadvo/view"
+            href="https://drive.google.com/file/d/1xTkbOJweopnmuU_shQsebcpuhNZ0blGB/view?usp=drive_link"
             target="_blank"
           >
             Resume
