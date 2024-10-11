@@ -8,6 +8,7 @@ import {
 } from '@remix-run/react';
 
 import TailwindStyles from "./tailwind.css?url";
+import {trans} from "./lib/lang";
 
 export const links = () => [
   { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" },
@@ -24,7 +25,7 @@ export function Layout() {
     <head>
       <meta charSet="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>Omar Villalobos - Software Developer</title>
+      <title>{trans("meta.title")}</title>
 
       <meta property="og:title" content="Omar Villalobos - Software Developer"/>
       <meta property="og:description"
