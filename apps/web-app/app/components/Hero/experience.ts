@@ -1,3 +1,5 @@
+import {trans} from "../../lib/lang";
+
 interface ExperienceInterface {
   icon: string;
   company: string;
@@ -11,7 +13,7 @@ const experience: ExperienceInterface[] = [
     icon: '/icons/vec.jpeg',
     company: 'Vecindary',
     position: 'founder',
-    duration: '2023 — Present',
+    duration: `2023 — ${trans("experience.present")}`,
     link: 'https://vecindary.com',
   },
   {

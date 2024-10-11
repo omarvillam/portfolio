@@ -11,6 +11,7 @@
     }
   },
   "experience": {
+    "present": "Presente",
     "founder": "Ingeniero fundador",
     "full": "Desarrollador Full Stack",
     "front": "Desarrollador Front End"

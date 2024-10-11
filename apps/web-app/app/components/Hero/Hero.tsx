@@ -1,12 +1,12 @@
 import React from 'react'
 import {experience} from "./experience";
-import {trans} from '../../lib/lang'
+import {currentLanguage, trans} from '../../lib/lang'
 
 function Hero() {
   return (
     <section className={"flex justify-between items-start px-10 md:px-20 lg:pt-16 pt-10 bg-primary flex-wrap sm:px-0 gap-y-10"} id={"home"}>
       <div className={"flex justify-center flex-col lg:basis-1/2 basis-full"}>
-        <h1 className={"sm:text-5xl text-3xl font-bold mt-0 whitespace-nowrap"}>{trans("hero.title")}</h1>
+        <h1 className={"sm:text-5xl text-3xl font-bold mt-0 lg:whitespace-nowrap"}>{trans("hero.title")}</h1>
         <p className={"mt-6 text-quartery leading-7"}>
           {trans("hero.bio.part1")}
           <br/><br/>
@@ -45,7 +45,7 @@ function Hero() {
 
                   {/* Timeline line */}
                   {i !== experience.length - 1 && (
-                    <span className="absolute top-10 left-1/2 w-px h-[calc(60%)] bg-tertiary"></span>
+                    <span className="absolute top-10 left-1/2 w-px bg-tertiary h-full"></span>
                   )}
                 </div>
 
@@ -53,7 +53,7 @@ function Hero() {
                   <h3 className={"text-white"}>{exp.company}</h3>
                   <div className={"flex justify-between items-center gap-2"}>
                     <h4 className={"text-tertiary text-sm"}>{trans("experience." + exp.position)}</h4>
-                    <h5 className={"text-tertiary text-sm"}>{exp.duration}</h5>
+                    <h5 className={"text-tertiary text-sm whitespace-nowrap"}>{exp.duration}</h5>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Hero() {
         <div className={"flex justify-between w-full flex-row gap-4 mt-4"}>
           <a
             className="text-sm rounded-lg w-full text-center bg-secondary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
-            href="https://drive.google.com/file/d/1xTkbOJweopnmuU_shQsebcpuhNZ0blGB/view?usp=drive_link"
+            href={`${currentLanguage === 'en' ? 'https://drive.google.com/file/d/1dTVj_lawXT7OH5BfQe9B5wkfP9RXHl2G/view?usp=drive_link' : 'https://drive.google.com/file/d/1qGSn7EkIXO2XFVWobItgrIzT93QrgAeQ/view?usp=drive_link'}`}
             target="_blank"
           >
             {trans("hero.resume")}
