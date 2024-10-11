@@ -41,9 +41,9 @@ export function Layout() {
       <Links/>
     </head>
     <body className="font-sans bg-black text-white">
-    <Outlet/>
-    <ScrollRestoration/>
-    <Scripts/>
+      <Outlet/>
+      <ScrollRestoration/>
+      <Scripts/>
     </body>
     </html>
   );

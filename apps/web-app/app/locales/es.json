@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "title": "Desarrollador software",
+    "description": "Encuentra tu aventura aquí.",
+    "resume": "Resumen",
+    "contact": "Contactar",
+    "bio": {
+      "part1": "Soy Omar Villalobos, un desarrollador de software full stack con experiencia construyendo aplicaciones con Node.js/TypeScript, Remix/Next.js, y Golang.",
+      "part2": "Como licenciado en Dirección de Negocios Globales con especialización en TI y Análisis de Datos, puedo conectar requisitos técnicos y empresariales para crear soluciones impactantes.",
+      "part3": "Siempre estoy emocionado por nuevos desafíos, así que si tienes un proyecto en mente, no dudes en contactarme."
+    }
+  },
+  "experience": {
+    "founder": "Ingeniero fundador",
+    "full": "Desarrollador Full Stack",
+    "front": "Desarrollador Front End"
+  },
+  "showcase": {
+    "title": "Proyectos",
+    "address": "Búsqueda Interactiva de Direcciones",
+    "stripe": "Pasarela de Pago Stripe",
+    "retirement": "Gestión del Plan de Retiro",
+    "editor": "Editor de Productos Imprimibles",
+    "fridges": "Heladeras Inteligentes IoT"
+  }
+}

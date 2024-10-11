@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "title": "Software Developer",
+    "description": "Find your adventure here.",
+    "resume": "Resume",
+    "contact": "Contact",
+    "bio": {
+      "part1": "I'm Omar Villalobos, a full stack software developer with experience building applications with Node.js/TypeScript, Remix/Next.js, and Golang.",
+      "part2": "As a bachelor in Global Business Management with a minor in IT Management & Data Analytics, I can bridge technical and business requirements to create impactful solutions.",
+      "part3": "I'm always excited for new challenges, so if you have a project in mind, feel free to reach out to me."
+    }
+  },
+  "experience": {
+    "founder": "Founding Engineer",
+    "full": "Full Stack Developer",
+    "front": "Front End Developer"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "address": "Interactive Address Lookup",
+    "stripe": "Stripe Payment Gateway",
+    "retirement": "Management of Retirement Plan",
+    "editor": "Printable Product Editor",
+    "fridges": "Smart Fridges IoT"
+  }
+}

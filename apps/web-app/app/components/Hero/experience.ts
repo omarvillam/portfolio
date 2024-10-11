@@ -10,28 +10,28 @@ const experience: ExperienceInterface[] = [
   {
     icon: '/icons/vec.jpeg',
     company: 'Vecindary',
-    position: 'Founding Engineer',
+    position: 'founder',
     duration: '2023 — Present',
     link: 'https://vecindary.com',
   },
   {
     icon: '/icons/sync.jpeg',
     company: 'Synctree',
-    position: 'Full Stack Developer',
+    position: 'full',
     duration: '2021 — 2023',
     link: 'https://synctree.com',
   },
   {
     icon: '/icons/iw.jpeg',
     company: 'Ignition Wolf',
-    position: 'Full Stack Developer',
+    position: 'full',
     duration: '2019 — 2021',
     link: 'https://ignitionwolf.com/',
   },
   {
     icon: '/icons/freelance.jpg',
     company: 'Freelancer',
-    position: 'Frontend Developer',
+    position: 'front',
     duration: '2018 — 2019',
     link: '#',
   }

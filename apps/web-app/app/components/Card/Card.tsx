@@ -1,5 +1,6 @@
 import React from 'react'
 import {ShowcaseInterface} from "../Showcase/showcases";
+import {trans} from "../../lib/lang";
 
 function Card({title, position, color, source}: ShowcaseInterface) {
   return (
@@ -17,7 +18,7 @@ function Card({title, position, color, source}: ShowcaseInterface) {
       ) : (
         <img
           src={source}
-          alt={title}
+          alt={trans(title)}
           className="rounded-lg w-full h-full object-cover shadow-sm"
         />
       )}
@@ -32,7 +33,7 @@ function Card({title, position, color, source}: ShowcaseInterface) {
     ${position === 'bottom-left' && 'bottom-2 left-3'}
     ${position === 'bottom-right' && 'bottom-2 right-3'}`}
       >
-        <h3>{title}</h3>
+        <h3>{trans(title)}</h3>
       </div>
 
 

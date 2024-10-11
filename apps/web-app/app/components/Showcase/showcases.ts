@@ -3,38 +3,35 @@ interface ShowcaseInterface {
   source: string;
   position: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right';
   color: 'black' | 'white';
-  // buttonHref: string;
-  // buttonText: string;
-  // buttonIcon: any;
 }
 
 const showcases: ShowcaseInterface[] = [
     {
-    title: "Interactive Address Lookups",
+    title: "address",
     source: "/showcase/map.mp4",
     position: "bottom-left",
       color: 'white',
   },
   {
-    title: "Printable Product Editor",
+    title: "editor",
     source: "/showcase/poster.mp4",
     position: "bottom-right",
     color: 'white',
   },
   {
-    title: "Stripe Payment Gateway",
+    title: "stripe",
     source: "/showcase/paywall.mp4",
     position: "bottom-left",
     color: 'white',
   },
   {
-    title: "Smart Fridges IoT",
+    title: "fridges",
     source: "/showcase/automatron.png",
     position: "bottom-left",
     color: 'white',
   },
   {
-    title: "Management of Retirement Plan",
+    title: "retirement",
     source: "/showcase/lykas.png",
     position: "bottom-left",
     color: 'white',
