@@ -1,7 +1,11 @@
 import en from '../locales/en.json';
 import es from '../locales/es.json';
 
-export let currentLanguage: 'en' | 'es' = navigator.language.startsWith('en') ? 'en' : 'es';
+export let currentLanguage: 'en' | 'es'
+
+if (typeof window !== 'undefined' && typeof navigator !== 'undefined') {
+  currentLanguage = navigator.language.startsWith('en') ? 'en' : 'es';
+}
 
 (function(){
   if (typeof window !== 'undefined') {
