@@ -11,6 +11,7 @@
     }
   },
   "experience": {
+    "title": "Experience",
     "present": "Present",
     "founder": "Founding Engineer",
     "full": "Full Stack Developer",
