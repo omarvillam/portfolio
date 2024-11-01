@@ -1,4 +1,4 @@
 .cache
 build
-public/build
+public/showcase/build
 .env

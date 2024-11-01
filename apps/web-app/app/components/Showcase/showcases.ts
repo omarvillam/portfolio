@@ -31,6 +31,12 @@ const showcases: ShowcaseInterface[] = [
     color: 'white',
   },
   {
+    title: "landing",
+    source: "/showcase/landing.mp4",
+    position: "bottom-left",
+    color: 'white',
+  },
+  {
     title: "retirement",
     source: "/showcase/lykas.png",
     position: "bottom-left",

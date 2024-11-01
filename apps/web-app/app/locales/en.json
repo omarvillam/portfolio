@@ -23,7 +23,8 @@
     "stripe": "Stripe Payment Gateway",
     "retirement": "Management of Retirement Plan",
     "editor": "Printable Product Editor",
-    "fridges": "Smart Fridges IoT"
+    "fridges": "Smart Fridges IoT",
+    "landing": "Interactive Landing Page"
   },
   "meta": {
     "title": "Omar Villalobos - Software Developer"

@@ -23,7 +23,8 @@
     "stripe": "Pasarela de Pago Stripe",
     "retirement": "Gestión del Plan de Retiro",
     "editor": "Editor de Productos Imprimibles",
-    "fridges": "Heladeras Inteligentes IoT"
+    "fridges": "Heladeras Inteligentes IoT",
+    "landing": "Página de destino interactiva"
   },
   "meta": {
     "title": "Omar Villalobos - Desarrollador Software"
