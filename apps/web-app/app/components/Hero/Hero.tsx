@@ -38,7 +38,7 @@ function Hero() {
                   </a>
                   {/* Border circle ::before */}
                   <span
-                    className="absolute inset-0 flex items-center justify-center before:content-[''] before:absolute before:w-9 before:h-9 before:border before:border before:rounded-full before:z-10"></span>
+                    className="absolute inset-0 flex items-center justify-center before:content-[''] before:absolute before:w-9 before:h-9 before:border before:rounded-full before:z-10"></span>
                   {/* Border tertiary ::after */}
                   <span
                     className="absolute inset-0 flex items-center justify-center after:content-[''] after:absolute after:w-10 after:h-10 after:border after:border-tertiary after:rounded-full after:z-0"></span>

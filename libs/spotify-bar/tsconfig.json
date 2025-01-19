@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [],
+  "include": [
+    ".storybook/**/*",
+    ".storybook/*",
+    "../src/**/*.ts",
+    "../src/**/*.tsx",
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+  ],
+  "extends": "../../tsconfig.base.json"
+}

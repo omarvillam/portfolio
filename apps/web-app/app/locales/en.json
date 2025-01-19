@@ -18,13 +18,17 @@
     "front": "Front End Developer"
   },
   "showcase": {
+    "component": "Go to component",
+    "production": "Open",
+    "ai-finder": "Health Influencer Finder AI-powered",
     "title": "Showcase",
     "address": "Interactive Address Lookup",
     "stripe": "Stripe Payment Gateway",
     "retirement": "Management of Retirement Plan",
     "editor": "Printable Product Editor",
     "fridges": "Smart Fridges IoT",
-    "landing": "Interactive Landing Page"
+    "landing": "Interactive Landing Page",
+    "spotify": "Spotify Media Player"
   },
   "meta": {
     "title": "Omar Villalobos - Software Developer"

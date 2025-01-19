@@ -1,4 +1,3 @@
-import type { MetaFunction } from '@remix-run/node';
 import {
   Links,
   Meta,
@@ -7,6 +6,8 @@ import {
   ScrollRestoration,
 } from '@remix-run/react';
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import TailwindStyles from "./tailwind.css?url";
 import {trans} from "./lib/lang";
 

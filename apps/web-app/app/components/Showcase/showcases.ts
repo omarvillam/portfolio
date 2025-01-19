@@ -3,14 +3,25 @@ interface ShowcaseInterface {
   source: string;
   position: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right';
   color: 'black' | 'white';
+  href?: string;
+  label?: 'component' | 'production'
+  component?: string;
 }
 
 const showcases: ShowcaseInterface[] = [
-    {
+  {
     title: "address",
     source: "/showcase/map.mp4",
     position: "bottom-left",
-      color: 'white',
+    color: 'white',
+  },
+  {
+    title: 'spotify',
+    label: 'component',
+    source: '/showcase/spotify-bar.mp4',
+    position: 'bottom-left',
+    color: 'white',
+    component: 'spotify'
   },
   {
     title: "editor",
@@ -41,7 +52,15 @@ const showcases: ShowcaseInterface[] = [
     source: "/showcase/lykas.png",
     position: "bottom-left",
     color: 'white',
-  }
+  },
+  {
+    title: "ai-finder",
+    label: "production",
+    href: "https://influencer-finder-co8n5k56t-omar-villalobos-projects.vercel.app/",
+    source: "/showcase/ai-finder.mp4",
+    position: "bottom-left",
+    color: 'white',
+  },
 ]
 
 export {showcases};

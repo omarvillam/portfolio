@@ -5,7 +5,8 @@
     "app/**/*.ts",
     "app/**/*.tsx",
     "app/**/*.js",
-    "app/**/*.jsx"
+    "app/**/*.jsx",
+    "src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"
   ],
   "exclude": [
     "tests/**/*.spec.ts",
