@@ -1,7 +1,7 @@
-import React from 'react'
+import ComponentLayout from "../components/ComponentLayout/ComponentLayout";
 import {SpotifyTrack} from "@portfolio/libs/spotify-bar";
 
-function SpotifyWrapper() {
+export default function DynamicComponent() {
   // Special thanks to Pixabay for hosting all the assets and music files, and to the artists for creating such amazing music!
   const tracks = [
     {url: "https://cdn.pixabay.com/download/audio/2024/09/20/audio_2abb91afcb.mp3?filename=lofi-song-backyard-by-lofium-242713.mp3", name: "Backyard", thumbnail: "https://cdn.pixabay.com/audio/2024/09/20/16-46-04-274_200x200.jpg", artistName: "Lofium", artistLink: "https://pixabay.com/users/lofium-30660321/"},
@@ -10,8 +10,8 @@ function SpotifyWrapper() {
   ];
 
   return (
-    <SpotifyTrack tracks={tracks} color={"text-gray-300 hover:text-white"}/>
-  )
+    <ComponentLayout>
+      <SpotifyTrack tracks={tracks} color={"text-gray-300 hover:text-white"}/>
+    </ComponentLayout>
+  );
 }
-
-export default SpotifyWrapper;
