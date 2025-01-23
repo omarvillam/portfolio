@@ -56,6 +56,7 @@
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
     "@remix-run/serve": "^2.12.1",
+    "@vercel/remix": "^2.15.2",
     "global": "^4.4.0",
     "isbot": "^4.4.0",
     "react": "18.3.1",
