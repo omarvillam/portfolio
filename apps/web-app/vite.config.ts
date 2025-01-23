@@ -8,7 +8,9 @@ installGlobals();
 
 export default defineConfig({
   server: {port: 3000, fs: {allow: ['../..']}},
-  plugins: [remix(), nxViteTsPaths(), nxCopyAssetsPlugin(['*.md'])],
+  plugins: [remix({
+    ssr: false
+  }), nxViteTsPaths(), nxCopyAssetsPlugin(['*.md'])],
   ssr: {
     noExternal: [/^@portfolio\//]
   }
