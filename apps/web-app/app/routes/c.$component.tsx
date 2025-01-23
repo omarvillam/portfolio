@@ -1,11 +1,6 @@
-import { LoaderFunctionArgs } from "@remix-run/node";
 import {useParams} from "@remix-run/react";
 import SpotifyWrapper from "../showcase/components/SpotifyWrapper";
 import ComponentLayout from "../showcase/components/ComponentLayout";
-
-export const loader = async ({}: LoaderFunctionArgs) => {
-  return true;
-};
 
 export default function DynamicComponent() {
   const { component } = useParams();
