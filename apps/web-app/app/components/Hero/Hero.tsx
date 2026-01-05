@@ -63,7 +63,7 @@ function Hero() {
         <div className={"flex justify-between w-full flex-row gap-4 mt-4"}>
           <a
             className="text-sm rounded-lg w-full text-center bg-secondary px-3 py-2 text-quartery font-bold hover:bg-quartery hover:text-primary transition-colors duration-200"
-            href={`${currentLanguage === 'en' ? 'https://drive.google.com/file/d/1pl-jtVb-RLj2ld4r-VSmBVUv7QfUHMdB/view?usp=sharing' : 'https://drive.google.com/file/d/1-DtCWd0QaQZKXLM-YbArG8P3pZhCzV-7/view?usp=sharing'}`}
+            href={`${currentLanguage === 'en' ? 'https://drive.google.com/file/d/16Vfd08yc7n9_Z-517J7QElbk6jVn1LCi/view?usp=sharing' : 'https://drive.google.com/file/d/16Vfd08yc7n9_Z-517J7QElbk6jVn1LCi/view?usp=sharing'}`}
             target="_blank"
           >
             {trans("hero.resume")}

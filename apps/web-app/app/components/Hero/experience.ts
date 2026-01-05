@@ -10,10 +10,17 @@ interface ExperienceInterface {
 
 const experience: ExperienceInterface[] = [
   {
+    icon: '/icons/nutrix.jpeg',
+    company: 'Nutrix AI',
+    position: 'full',
+    duration: `2025 — 2026`,
+    link: 'https://nutrix.ai',
+  },
+  {
     icon: '/icons/vec.jpeg',
     company: 'Vecindary',
     position: 'founder',
-    duration: `2023 — ${trans("experience.present")}`,
+    duration: `2023 — 2025`,
     link: 'https://vecindary.com',
   },
   {
